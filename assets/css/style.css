@@ -376,9 +376,8 @@ h3 {
 
 .card .role {
   font-size: 1.25rem;
-  position: absolute;
   right: 25px;
-  top: 60px;
+  top: 25px;
   
 }
 
@@ -424,8 +423,8 @@ h3 {
 }
 
 #experience .card .col.s12.m2 a img {
-  max-height: 63px;
-  max-width: 177px;
+  max-height: 50px;
+  max-width: 130px;
 }
 
 .card-action span {
@@ -449,7 +448,7 @@ h3 {
 }
 
 .card .card-title {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .card .card-content .card-title {
@@ -666,10 +665,10 @@ small {
   }
   .card .card-content .card-title {
     font-size: 20px;
-    line-height: 24px;
+    line-height: 20px;
   }
   #experience span.card-title {
-    text-align: center;
+    text-align: left;
     display: block;
   }
   #experience span.card-title a {
