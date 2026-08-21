@@ -377,8 +377,8 @@ h3 {
 .card .role {
   font-size: 1.25rem;
   position: absolute;
-  right: 38px;
-  top: 35px;
+  right: 25px;
+  top: 80px;
   
 }
 
@@ -424,7 +424,7 @@ h3 {
 }
 
 #experience .card .col.s12.m2 a img {
-  max-height: 63px;
+  max-height: 250px;
 }
 
 .card-action span {
