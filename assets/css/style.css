@@ -377,6 +377,8 @@ h3 {
 .card .role {
   font-size: 1.25rem;
   /* position: absolute; */
+  right: 38px;
+  bottom: 35px;
   
 }
 
