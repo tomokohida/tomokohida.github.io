@@ -693,3 +693,174 @@ small {
     background-position-x: 30%;
   }
 }
+
+ /* =========================================================
+    PROJECT BARS
+    ========================================================= */
+
+#projects .project-container {
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#projects .project-bar {
+  background: #fff;
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+  border-left: 5px solid #008073;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+/* The clickable project title */
+#projects .project-bar summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  list-style: none;
+  padding: 20px 25px;
+  color: #004d40;
+  font-size: 1.25rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+/* Remove browser's default disclosure triangle */
+#projects .project-bar summary::-webkit-details-marker {
+  display: none;
+}
+
+#projects .project-bar summary::marker {
+  display: none;
+}
+
+/* Hover state */
+#projects .project-bar summary:hover {
+  background-color: #f5f5f5;
+}
+
+/* Project title */
+#projects .project-title {
+  flex: 1;
+}
+
+/* Dropdown arrow */
+#projects .project-arrow {
+  color: #008073;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-left: 20px;
+  transition: transform 0.25s ease;
+}
+
+/* Rotate arrow when opened */
+#projects .project-bar[open] .project-arrow {
+  transform: rotate(180deg);
+}
+
+/* Expanded content */
+#projects .project-details {
+  border-top: 1px solid #ddd;
+  padding: 25px 30px 30px;
+  background: #fff;
+  color: #333;
+}
+
+/* Description */
+#projects .project-details p {
+  line-height: 1.7;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* Section headings inside project */
+#projects .project-details h5 {
+  color: #795548;
+  font-size: 1.2rem;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+/* Project bullet points */
+#projects .project-details ul {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#projects .project-details ul li {
+  line-height: 1.7;
+  list-style-type: disc;
+  margin-left: 25px;
+}
+
+/* Links */
+#projects .project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+#projects .project-link {
+  display: inline-block;
+  padding: 9px 16px;
+  background-color: #008073;
+  color: #fff;
+  border-radius: 3px;
+  transition: background-color 0.2s ease;
+}
+
+#projects .project-link:hover {
+  background-color: #004d40;
+  color: #fff;
+}
+
+#projects .project-link i {
+  margin-right: 6px;
+}
+
+/* PDF preview */
+#projects .project-pdf-container {
+  width: 100%;
+  margin-top: 25px;
+  border: 1px solid #ddd;
+  background-color: #f5f5f5;
+}
+
+/* Embedded PDF */
+#projects .project-pdf {
+  display: block;
+  width: 100%;
+  height: 700px;
+  border: none;
+}
+
+/* =========================================================
+   PROJECT BAR RESPONSIVE STYLES
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+  #projects .project-container {
+    width: 92%;
+  }
+
+  #projects .project-bar summary {
+    padding: 17px 18px;
+    font-size: 1.05rem;
+  }
+
+  #projects .project-details {
+    padding: 20px;
+  }
+
+  #projects .project-pdf {
+    height: 500px;
+  }
+
+  #projects .project-link {
+    width: 100%;
+    text-align: center;
+  }
+}
