@@ -304,9 +304,13 @@ h3 {
 
 h4 {
   font-weight: 100;
-  margin-bottom: 0px;
-  margin-top: 0;
-  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 750px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .section {
   padding-bottom: 30px;
@@ -898,11 +902,11 @@ small {
   padding: 30px;
 }
 
-.education-card h4 {
+.education-card h2 {
   color: #00796b;
   margin-top: 0;
   margin-bottom: 0px;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 .education-card h5 {
