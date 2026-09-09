@@ -829,6 +829,8 @@ small {
   margin-top: 25px;
   border: 1px solid #ddd;
   background-color: #f5f5f5;
+  display: flex;
+  gap: 20px; 
 }
 
 /* Embedded PDF */
